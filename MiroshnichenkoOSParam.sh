@@ -7,4 +7,4 @@ echo -e "$mempar - об'єм пам'яті, зайнятий найбільш ч
 echo -n "Введіть назву параметру процесору: "
 read cpupar
 echo $(grep "$cpupar" /proc/cpuinfo | uniq)
-echo "$cpupar - загальна кількість мегагерц у процесора"
+echo "$cpupar - загальна кількість ядер у процесора"
